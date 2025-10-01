@@ -35,3 +35,19 @@ while (is_sentence(user_sentence) == False):
     print("This does not meet the criteria for a sentence.")
     user_input = input("Enter a sentence: ")
     
+words_list = user_sentence.lower().split()
+cleaned_words= [re.sub(r'[^\w]',"for word in words_list if word.strip()]
+                       
+words= []
+frequencies = []
+
+for word in clean_words:
+    index= words.index(word)
+    frequencies[index] += 1
+    else:
+        words.append(word)
+        frequencies.append(1)
+        
+for i in range(len(words)):
+    print(f"{words[i]}: {frequencies[i]}")
+
