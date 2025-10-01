@@ -36,14 +36,14 @@ while (is_sentence(user_sentence) == False):
     user_input = input("Enter a sentence: ")
     
 words_list = user_sentence.lower().split()
-cleaned_words= [re.sub(r'[^\w]',"for word in words_list if word.strip()]
+cleaned_words = [re.sub(r'[^\w]', '', word) for word in words_list if word.strip()]                       
                        
 words= []
 frequencies = []
 
 for word in clean_words:
-    index= words.index(word)
-    frequencies[index] += 1
+    if  index= words.index(word)
+        frequencies[index] += 1
     else:
         words.append(word)
         frequencies.append(1)
