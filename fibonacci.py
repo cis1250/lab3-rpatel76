@@ -11,7 +11,8 @@ while terms<=0:
   if terms<=0:
       print("Please enter a positive integer")
 
-a, b=0,1
+a=0
+b=1
 for i in range (terms):
   print (a, end=" ")
   a, b = b, a+b
